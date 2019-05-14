@@ -38,6 +38,8 @@ namespace Paddywan
              * removing non-existant entries from the droplist; or we would modify it too late and the list would be readOnly
              * and changes would not be effective. The following solution appears to allow clients to join a lobby without
              * having the mod installed.
+             * Massive thanks to Atlas_ and the entire modding discord for their help and support. Without Atlas_ this hook
+             * would not have been possible.
              */
             On.RoR2.Run.BuildDropTable += (On.RoR2.Run.orig_BuildDropTable orig, Run self) =>
             {
