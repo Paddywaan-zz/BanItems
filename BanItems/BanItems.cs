@@ -9,7 +9,7 @@ using System.Reflection;
 namespace Paddywan
 {
     [BepInDependency("com.bepis.r2api")]
-    [BepInPlugin("com.Paddywan.BanItem", "Ban Items, Equipment, Lunar from droplists.", "1.0.0")]
+    [BepInPlugin("com.Paddywan.BanItem", "Ban Items, Equipment, Lunar from droplists.", "1.0.1")]
     public class BanItems : BaseUnityPlugin
     {
         private static ConfigWrapper<bool>[] icBanned = new ConfigWrapper<bool>[(int)ItemIndex.Count]; //itemConfigWrappers
