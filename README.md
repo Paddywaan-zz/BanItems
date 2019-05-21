@@ -12,6 +12,6 @@ Configure Ror2\Bepinex\config\com.Paddywan.BanItem.cfg and set to true to disabl
 
 Changelog:
 
-V1.0.1 Fixed compatability issues with most recent RoR2 update.
+V1.0.2 Fixed compatability issues with most recent RoR2 update.
 
-V1.0.0 Released
+V1.0.1 Released
